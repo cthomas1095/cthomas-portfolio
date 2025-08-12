@@ -1,0 +1,19 @@
+import Image from 'next/image'
+import { Canvas } from '@react-three/fiber'
+import { createContext } from 'react'
+ 
+const Context = createContext()
+export default function Page() {
+  return (
+    <>
+       <Canvas>
+      <mesh>
+        <boxGeometry args={[2, 2, 2]} />
+        <meshPhongMaterial />
+      </mesh>
+      <ambientLight intensity={0.1} />
+      <directionalLight position={[0, 0, 5]} color="red" />
+    </Canvas>
+  </>
+  )
+}
