@@ -27,7 +27,7 @@ export default function Page() {
         <ambientLight intensity={0.2} />
         <Physics 
         //No gravity
-        // gravity={[0, 0, 0]}
+        // gravity={[0, 0, 0]
         timeStep="vary">
           <KeyboardControls map={keyboardMap}>
             <Controller maxVelLimit={10}  
