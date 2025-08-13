@@ -18,7 +18,8 @@ export default function Page() {
   ]
   return (
     <div style={{ width: '100vw', height: '100vh', overflow: 'hidden' }}>
-      <Canvas  style={{ background: 'white' }} shadows>     
+    <Canvas shadows onPointerDown={(e) => (e.target as HTMLCanvasElement).requestPointerLock()}>
+     
         {/* <Environment files="/night.hdr" ground={{scale: 200 }} /> */}
         <directionalLight intensity={0.7} castShadow shadow-bias={-0.0004} position={[-20, 20, 20]}>
           <orthographicCamera attach="shadow-camera" args={[-20, 20, 20, -20]} />
