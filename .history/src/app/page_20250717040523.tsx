@@ -28,13 +28,13 @@ export default function Page() {
             <Controller maxVelLimit={5}>
               <Gltf castShadow receiveShadow scale={0.315} 
               position={[-2, 1, 0]} 
-              src="/.ghost_w_tophat-transformed.glb" />
+              src="/ghost_w_tophat-transformed.glb" />
             </Controller>
           </KeyboardControls>
           <RigidBody type="fixed" colliders="trimesh">
             <Gltf /*castShadow receiveShadow rotation={[-Math.PI / 2, 0, 0]} 
             scale={1000}*/ 
-            src="/.collision-world.glb" />
+            src="/collision-world.glb" />
           </RigidBody>
         </Physics>
    

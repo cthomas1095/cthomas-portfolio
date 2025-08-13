@@ -26,11 +26,11 @@ export default function Page() {
         <Physics timeStep="vary">
           <KeyboardControls map={keyboardMap}>
             <Controller maxVelLimit={5}>
-              <Gltf castShadow receiveShadow scale={0.315} position={[0, -0.55, 0]} src="/.ghost_w_tophat-transformed.glb" />
+              <Gltf castShadow receiveShadow scale={0.315} position={[0, -0.55, 0]} src="/ghost_w_tophat-transformed.glb" />
             </Controller>
           </KeyboardControls>
           <RigidBody type="fixed" colliders="trimesh">
-            <Gltf /*castShadow receiveShadow rotation={[-Math.PI / 2, 0, 0]}*/ scale={0.11}src="/.dragon_age_inquistion_skyhold_throne_room.glb" />
+            <Gltf /*castShadow receiveShadow rotation={[-Math.PI / 2, 0, 0]}*/ scale={0.11}src="/dragon_age_inquistion_skyhold_throne_room.glb" />
           </RigidBody>
         </Physics>
    

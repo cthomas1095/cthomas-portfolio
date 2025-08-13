@@ -40,23 +40,23 @@ export default function Page() {
               // position={[0, -0.55, 0]} 
               scale={1} 
               position={[0, 0, 0]} 
-              src="/.star_wars_r2-d2.glb" />
+              src="/star_wars_r2-d2.glb" />
             </Controller>
           </KeyboardControls>
           <RigidBody type="fixed" colliders="trimesh">
-            {/* <Gltf castShadow receiveShadow rotation={[-Math.PI / 2, 0, 0]} scale={0.11} src="/.fantasy_game_inn2-transformed.glb" /> */}
+            {/* <Gltf castShadow receiveShadow rotation={[-Math.PI / 2, 0, 0]} scale={0.11} src="/fantasy_game_inn2-transformed.glb" /> */}
             {/* <Gltf 
             position={[1, -4, -80.75]}
             castShadow receiveShadow 
             // rotation={[-Math.PI / 2, 0, 0]}
             scale={12}
-            src="/.shipwreck_turned_into_hideout.glb" /> */}
+            src="/shipwreck_turned_into_hideout.glb" /> */}
             <Gltf castShadow 
             receiveShadow 
             position={[0, 3, 0]}
             // rotation={[-Math.PI / 2, 0, 0]} 
             scale={1} 
-            src="/.tantive_iv_interior_pbr.glb" />
+            src="/tantive_iv_interior_pbr.glb" />
           </RigidBody>
         </Physics>
    

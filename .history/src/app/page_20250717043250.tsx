@@ -27,12 +27,12 @@ export default function Page() {
           <KeyboardControls map={keyboardMap}>
             <Controller maxVelLimit={5}>
               <Gltf castShadow receiveShadow scale={0.315} position={[-0.44 , -0.55, 0]} 
-              src="/.ghost_w_tophat-transformed.glb" />
+              src="/ghost_w_tophat-transformed.glb" />
             </Controller>
           </KeyboardControls>
           <RigidBody type="fixed" colliders="trimesh">
             <Gltf position={[0, 0, 0]}  /*castShadow receiveShadow rotation={[-Math.PI / 2, 0, 0]}*/ /* scale={1000} */
-            src="/.haunted_house.glb" />
+            src="/haunted_house.glb" />
           </RigidBody>
         </Physics>
    

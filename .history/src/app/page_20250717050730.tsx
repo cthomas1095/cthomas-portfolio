@@ -34,14 +34,14 @@ export default function Page() {
             /* type="kinematic" */
             >
               <Gltf castShadow receiveShadow scale={0.315} position={[0, 0, 0]} 
-              src="/.ghost_w_tophat-transformed.glb" />
+              src="/ghost_w_tophat-transformed.glb" />
             </Controller>
           </KeyboardControls>
           <RigidBody type="fixed" colliders="trimesh">
             <Gltf position={[6, 7, -4]}  
             /*castShadow receiveShadow rotation={[-Math.PI / 2, 0, 0]}*/ 
             scale={11}
-            src="/.haunted_house.glb" />
+            src="/haunted_house.glb" />
           </RigidBody>
         </Physics>
    

@@ -36,7 +36,7 @@ export default function Page() {
             /* type="kinematic" */
             >
               <Gltf castShadow receiveShadow scale={0.315} position={[0, -0.55, 0]} 
-              src="/.ghost_w_tophat-transformed.glb" />
+              src="/ghost_w_tophat-transformed.glb" />
             </Controller>
           </KeyboardControls>
           <RigidBody type="fixed" colliders="trimesh">
@@ -44,7 +44,7 @@ export default function Page() {
             /* position={[6, 7, -4]}   */
             castShadow receiveShadow rotation={[-Math.PI / 2, 0, 0]}
             scale={}
-            src="/.shipwreck_turned_into_hideout.glb" />
+            src="/shipwreck_turned_into_hideout.glb" />
           </RigidBody>
         </Physics>
    

@@ -34,7 +34,7 @@ export default function Page() {
             /* type="kinematic" */
             >
               <Gltf castShadow receiveShadow scale={0.315} position={[0, 0, 0]} 
-              src="/.ghost_w_tophat-transformed.glb" />
+              src="/ghost_w_tophat-transformed.glb" />
             </Controller>
           </KeyboardControls>
           <RigidBody >
@@ -42,7 +42,7 @@ export default function Page() {
             position={[0, 0, 0]}  
             /*castShadow receiveShadow rotation={[-Math.PI / 2, 0, 0]}*/ 
             ///* scale={11} */
-            src="/.fantasy_game_inn2-transformed.glb" />
+            src="/fantasy_game_inn2-transformed.glb" />
           </RigidBody>
         </Physics>
    

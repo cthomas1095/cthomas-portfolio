@@ -38,17 +38,17 @@ export default function Page() {
               <Gltf castShadow receiveShadow 
               scale={0.315} 
               position={[0, -0.55, 0]} 
-              src="/.ghost_w_tophat-transformed.glb" />
+              src="/ghost_w_tophat-transformed.glb" />
             </Controller>
           </KeyboardControls>
           <RigidBody type="fixed" colliders="trimesh">
-            <Gltf castShadow receiveShadow rotation={[-Math.PI / 2, 0, 0]} scale={0.11} src="/.fantasy_game_inn2-transformed.glb" />
+            <Gltf castShadow receiveShadow rotation={[-Math.PI / 2, 0, 0]} scale={0.11} src="/fantasy_game_inn2-transformed.glb" />
             {/* <Gltf 
             position={[1, -4, -80.75]}
             castShadow receiveShadow 
             // rotation={[-Math.PI / 2, 0, 0]}
             scale={12}
-            src="/.shipwreck_turned_into_hideout.glb" /> */}
+            src="/shipwreck_turned_into_hideout.glb" /> */}
           </RigidBody>
         </Physics>
    

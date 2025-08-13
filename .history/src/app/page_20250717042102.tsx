@@ -26,12 +26,12 @@ export default function Page() {
         <Physics timeStep="vary">
           <KeyboardControls map={keyboardMap}>
             <Controller maxVelLimit={5}>
-              <Gltf castShadow receiveShadow scale={0.315} position={[0, 1, 0]} src="/.ghost_w_tophat-transformed.glb" />
+              <Gltf castShadow receiveShadow scale={0.315} position={[0, 1, 0]} src="/ghost_w_tophat-transformed.glb" />
             </Controller>
           </KeyboardControls>
           <RigidBody type="fixed" colliders="trimesh">
             <Gltf position={[-3, 0, 0]}  /*castShadow receiveShadow rotation={[-Math.PI / 2, 0, 0]}*/ /* scale={1000} */
-            src="/.the_billiards_room.glb" />
+            src="/the_billiards_room.glb" />
           </RigidBody>
         {/* </Physics> */}
    

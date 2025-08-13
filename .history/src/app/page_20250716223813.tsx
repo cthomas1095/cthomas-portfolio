@@ -26,11 +26,11 @@ export default function Page() {
         <Physics timeStep="vary">
           <KeyboardControls map={keyboardMap}>
             <Controller maxVelLimit={5}>
-              <Gltf castShadow receiveShadow scale={0.315} position={[-2.36332 , -4.08846, 2.30372]} src="/.ghost_w_tophat-transformed.glb" />
+              <Gltf castShadow receiveShadow scale={0.315} position={[-2.36332 , -4.08846, 2.30372]} src="/ghost_w_tophat-transformed.glb" />
             </Controller>
           </KeyboardControls>
           <RigidBody type="fixed" colliders="trimesh">
-            <Gltf /*castShadow receiveShadow rotation={[-Math.PI / 2, 0, 0]} scale={100}*/ src="/.collision-world.glb" />
+            <Gltf /*castShadow receiveShadow rotation={[-Math.PI / 2, 0, 0]} scale={100}*/ src="/collision-world.glb" />
           </RigidBody>
         </Physics>
     </Canvas>
